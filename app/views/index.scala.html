@@ -1,7 +1,16 @@
-@(message: String)
+@main("Open IE") {
 
-@main("Welcome to Play") {
+    <div class="wrapper">
+        <textarea id="txtMsg" placeholder="Write your message"></textarea>
+    </div>
 
-    @play20.welcome(message)
+    <button class="btn btn-primary">
+        <span class="glyphicon glyphicon-equalizer"></span> Analyze
+    </button>
 
+    <br/>
+
+    <div id="result"></div>
+
+    <script src="@routes.Assets.at("javascripts/script.js")" type="text/javascript"></script>
 }
