@@ -4,7 +4,7 @@ Relationship extraction using OpenIE.
 
 JVM heap has to be at least 3G to run the application. Add these memory options -Xmx4G -XX:+UseConcMarkSweepGC when starting the server.
 
-Learn more about memory options of OpenIE @ https://github.com/knowitall/openie#running-from-a-stand-alone-jar
+Learn more about memory options @ [OpenIE](https://github.com/knowitall/openie#running-from-a-stand-alone-jar)
 
 # Screenshot
 
