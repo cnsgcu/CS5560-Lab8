@@ -1,0 +1,9 @@
+ ---
+applications:
+- host: g9l8
+  name: G9L8
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  path: .
+  buildpack: https://github.com/heroku/heroku-buildpack-scala.git
