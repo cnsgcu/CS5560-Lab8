@@ -1,8 +1,8 @@
-# G9L8 -b open_ie
+# G9L8 - open_ie branch
 
 Relationship extraction using OpenIE.
 
-JVM heap has to be at leat 3G to start the server. Add these memory options -Xmx4G -XX:+UseConcMarkSweepGC when start the server.
+JVM heap has to be at least 3G to run the application. Add these memory options -Xmx4G -XX:+UseConcMarkSweepGC when starting the server.
 
 Learn more about memory options of OpenIE @ https://github.com/knowitall/openie
 
